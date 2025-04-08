@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forum Sederhana</title>
+    <script src="js/script.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+    <h1 class="text-2xl font-bold mb-4">Forum</h1>
+
+    <div class="mb-4">
+        <input id="title" placeholder="Judul Forum" class="border p-2 mr-2">
+        <input id="content" placeholder="Isi Forum" class="border p-2 mr-2">
+        <button onclick="createForum()" class="bg-blue-500 text-white px-4 py-2 rounded">Upload</button>
+    </div>
+
+    <div id="forums" class="space-y-4"></div>
+</body>
+</html>
